@@ -1,0 +1,15 @@
+#Write a program to prompt user to enter userid and password. If Id and
+#password is incorrect give him chance to re-enter the credentials. Let him try 3
+#times. After that program to terminate.
+
+i=1
+while(i<=3):
+    userid=int(input('Enter UserID:'))
+    password=int(input('Enter password:'))
+
+    if(userid==1234 and password==123):
+        print('UserId and Password is correct')
+        break
+    else:
+        print('Invalid UserId and Password try again')
+    i+=1
