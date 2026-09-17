@@ -63,9 +63,6 @@ class HeavyVehicle(Vehicle):
 
         return toll
 
-
-# Main - Menu Driven Program
-
 while True:
 
     print("\n===== TOLL MENU =====")
